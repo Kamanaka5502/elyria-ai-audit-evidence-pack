@@ -1,0 +1,11 @@
+{
+  "packet_id": "AUD-003",
+  "system_id": "agentic-refund-workflow",
+  "decision_timestamp": "2026-06-12T22:10:00Z",
+  "decision_owner": "AI Governance Office",
+  "governance_owner": "Finance Risk",
+  "reason_codes": ["DECISION_RECORD_MISSING"],
+  "control_checks": ["owner_present", "timestamp_present"],
+  "evidence_refs": ["workflow-review-003"],
+  "replay_ready": false
+}
