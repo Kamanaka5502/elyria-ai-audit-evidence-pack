@@ -1,0 +1,12 @@
+{
+  "packet_id": "AUD-001",
+  "system_id": "customer-support-copilot",
+  "decision": "ADMIT",
+  "decision_timestamp": "2026-06-12T22:00:00Z",
+  "decision_owner": "AI Governance Office",
+  "governance_owner": "Enterprise Risk",
+  "reason_codes": ["SOURCE_AUTHORITY_RESOLVED", "ACTION_BOUNDARY_RESOLVED"],
+  "control_checks": ["owner_present", "decision_present", "evidence_refs_present", "replay_ready"],
+  "evidence_refs": ["approval-record-001", "source-registry-001", "test-run-001"],
+  "replay_ready": true
+}
