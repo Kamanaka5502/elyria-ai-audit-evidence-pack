@@ -1,0 +1,38 @@
+[
+  {
+    "file": "complete-evidence-packet.json",
+    "packet_id": "AUD-001",
+    "system_id": "customer-support-copilot",
+    "expected": "ADMIT",
+    "actual": "ADMIT",
+    "reason_codes": ["EVIDENCE_PACKET_AUDIT_READY"],
+    "required_remediation": []
+  },
+  {
+    "file": "missing-owner-evidence.json",
+    "packet_id": "AUD-002",
+    "system_id": "internal-knowledge-assistant",
+    "expected": "HOLD",
+    "actual": "HOLD",
+    "reason_codes": ["EVIDENCE_PACKET_INCOMPLETE"],
+    "required_remediation": ["Complete missing required evidence fields before audit reliance."]
+  },
+  {
+    "file": "missing-decision-record.json",
+    "packet_id": "AUD-003",
+    "system_id": "agentic-refund-workflow",
+    "expected": "REFUSE",
+    "actual": "REFUSE",
+    "reason_codes": ["CRITICAL_PROOF_BOUNDARY_MISSING"],
+    "required_remediation": ["Rebuild the evidence packet before relying on the governance decision."]
+  },
+  {
+    "file": "changed-system-needs-replay.json",
+    "packet_id": "AUD-004",
+    "system_id": "rag-policy-assistant",
+    "expected": "REVALIDATE",
+    "actual": "REVALIDATE",
+    "reason_codes": ["PACKET_REVALIDATION_REQUIRED"],
+    "required_remediation": ["Revalidate the packet because system conditions changed after the decision."]
+  }
+]
