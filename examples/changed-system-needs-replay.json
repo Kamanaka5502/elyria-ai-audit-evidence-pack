@@ -1,0 +1,13 @@
+{
+  "packet_id": "AUD-004",
+  "system_id": "rag-policy-assistant",
+  "decision": "REVALIDATE",
+  "decision_timestamp": "2026-06-12T22:15:00Z",
+  "decision_owner": "AI Governance Office",
+  "governance_owner": "Compliance",
+  "reason_codes": ["SYSTEM_CHANGED_AFTER_DECISION"],
+  "control_checks": ["owner_present", "decision_present", "evidence_refs_present"],
+  "evidence_refs": ["rag-source-review-004", "policy-corpus-change-004"],
+  "system_changed_after_decision": true,
+  "replay_ready": true
+}
