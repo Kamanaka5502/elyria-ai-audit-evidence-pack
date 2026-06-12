@@ -1,0 +1,10 @@
+{
+  "packet_id": "AUD-002",
+  "system_id": "internal-knowledge-assistant",
+  "decision": "HOLD",
+  "decision_timestamp": "2026-06-12T22:05:00Z",
+  "reason_codes": ["EVIDENCE_INCOMPLETE"],
+  "control_checks": ["decision_present", "timestamp_present"],
+  "evidence_refs": ["approval-record-002"],
+  "replay_ready": false
+}
