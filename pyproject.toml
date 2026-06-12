@@ -1,0 +1,13 @@
+[project]
+name = "elyria-ai-audit-evidence-pack"
+version = "0.1.0"
+description = "Public-safe enterprise AI audit evidence pack for governance proof, replay readiness, and evidence preservation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Samantha Revita" }]
+keywords = ["ai-governance", "audit", "evidence", "replay-readiness", "enterprise-ai"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
