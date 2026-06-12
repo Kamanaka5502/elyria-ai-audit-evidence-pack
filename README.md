@@ -4,6 +4,8 @@
 
 ## AI Governance Evidence · Audit Packets · Replay Readiness · Proof Preservation
 
+<img src="elyria-ai-audit-evidence-pack.jpg" alt="Elyria AI Audit Evidence Pack" width="100%">
+
 ![License](https://img.shields.io/badge/license-MIT-1f4f5a?style=for-the-badge)
 ![AI Governance](https://img.shields.io/badge/AI%20Governance-Audit%20Evidence%20Pack-1f4f5a?style=for-the-badge)
 ![Evidence](https://img.shields.io/badge/Evidence-Decision%20Record%20%7C%20Owner%20%7C%20Proof-5f8fa3?style=for-the-badge)
